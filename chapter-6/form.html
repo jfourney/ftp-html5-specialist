@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms Example</title>
+        <style type="text/css">
+        	#bio
+        	{
+        		width: 300px;
+        		height: 200px;
+        	}
+        </style>
+    </head>
+    <body>
+        <form action="" method="post">
+        	<label for="first">First Name: </label>
+        	<input type="text" name="first" id="first" placeholder="First Name" required="required" maxlength="50" autofocus="autofocus" /><br />
+        	<label for="last">Last Name: </label>
+        	<input type="text" name="last" id="last" placeholder="Last Name" required="required" maxlength="50" />
+        	<br />
+        	<label for="email">EMail: </label>
+        	<input type="email" name="email" id="email" placeholder="EMail Address" required="required" maxlength="50" />
+        	<br />
+        	<label for="bio">Biography: </label><br />
+        	<textarea id="bio" name="bio" placeholder="Type your biography here" maxlength="500"></textarea>
+        	<br />
+        	<label for="myBands">Favorite Band:</label>
+        	<input type="text" name="favoriteBand" placeholder="Favorite Band" list="myBands" />
+        	<datalist id="myBands">
+        		<option value="Journey" />
+        		<option value="Styx" />
+        		<option value="REO Speedwagon" />
+        		<option value="Rush" />
+        		<option value="Alabama" />
+        	</datalist>
+        </form>
+    </body>
+</html>

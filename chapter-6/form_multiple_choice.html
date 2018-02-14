@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+        #bio
+            {
+                width: 300px;
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#" method="post">
+            <label for="first">First</label>
+            <input type="text" id="first" name="first" required="required"/><br/>
+            <label for="last">Last</label>
+            <input type="text" id="last" name="last" maxlength="25" autocomplete="off"/><br/>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" /><br/>
+            <label id="bands">Bands You Like</label><br/>
+            <input type="checkbox" name="bands" value="Journey">Journey<br/>
+            <input type="checkbox" name="bands" value="REO">REO Speedwagon<br/>
+            <input type="checkbox" name="bands" value="Foreigner">Foreigner<br/>
+            <input type="checkbox" name="bands" value="Heart">Heart<br/>
+            <input type="checkbox" name="bands" value="Scandal">Scandal<br/>
+            <label id="gender">Gender</label><br/>
+            <input type="radio" name="gender" value="male" />Male<br/>
+            <input type="radio" name="gender" value="female">Female<br/>
+            <input type="radio" name="gender" value="other">Other<br/>
+            <label id="state">State: </label>
+            <select name="state">
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+            </select>
+            <br />
+            <input type="submit" name="submit" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" name="reset" />
+        </form>
+    </body>
+</html>
